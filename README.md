@@ -74,13 +74,13 @@ Next what you want to do is set the a height of 100% to the scroll class which u
 
 ### Hide splash screen on device ready
 
-1. Install splashscreen plugin
+Install the splashscreen plugin
 
 ```
 ionic plugin add org.apache.cordova.splashscreen
 ```
 
-2. Change the defaults.xml in `myapp/platforms/{ios/android}/cordova/`
+Change the defaults.xml in `myapp/platforms/{ios/android}/cordova/`
 
 ```xml
 <preference name="AutoHideSplashScreen" value="false" />
