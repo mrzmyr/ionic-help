@@ -155,3 +155,8 @@ alias ionic-handleit='ionic run android && ionic run ios'
 cordova platform rm android
 cordova platform add android
 ```
+
+### Blogs
+
+- [iLee](http://ilee.co.uk/)
+- [Ionic Blog](http://blog.ionic.io/), obviously
