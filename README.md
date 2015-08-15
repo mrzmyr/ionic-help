@@ -156,6 +156,15 @@ cordova platform rm android
 cordova platform add android
 ```
 
+> Ionic app will not switch orientation when iPad is rotated
+
+```
+<platform name="ios">
+    <preference name="Orientation" value="all" />
+</platform>
+```
+
+Reference: [http://forum.ionicframework.com/t/ionic-app-...](http://forum.ionicframework.com/t/ionic-app-will-not-switch-orientation-when-ipad-is-rotated/29804/5?u=mtt)
 ### Blogs
 
 - [iLee](http://ilee.co.uk/)
